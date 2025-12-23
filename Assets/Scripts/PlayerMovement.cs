@@ -7,6 +7,13 @@ public class PlayerMovement : MonoBehaviour
     public int speed;
     [SerializeField] private CharacterController player;
     [SerializeField] private Transform visor;
+    public int denounceCooldown;
+    public Vector3 hubPosition;
+    [SerializeField] public MeshRenderer mr;
+
+    void Start(){
+        gameObject.transform.position = hubPosition;
+    }
 
     // Update is called once per frame
     void Update()
