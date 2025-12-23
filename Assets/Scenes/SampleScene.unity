@@ -840,6 +840,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090100029464572445, guid: a515af9df0473974293fdfa1b5457453, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571518198398038583, guid: a515af9df0473974293fdfa1b5457453, type: 3}
       propertyPath: m_Name
       value: Character (2)
@@ -2586,6 +2590,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090100029464572445, guid: a515af9df0473974293fdfa1b5457453, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571518198398038583, guid: a515af9df0473974293fdfa1b5457453, type: 3}
       propertyPath: m_Name
       value: Character (3)
@@ -2686,6 +2694,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090100029464572445, guid: a515af9df0473974293fdfa1b5457453, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571518198398038583, guid: a515af9df0473974293fdfa1b5457453, type: 3}
       propertyPath: m_Name
       value: Character (5)
@@ -2899,6 +2911,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090100029464572445, guid: a515af9df0473974293fdfa1b5457453, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571518198398038583, guid: a515af9df0473974293fdfa1b5457453, type: 3}
       propertyPath: m_Name
       value: Character (4)
@@ -3339,6 +3355,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090100029464572445, guid: a515af9df0473974293fdfa1b5457453, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571518198398038583, guid: a515af9df0473974293fdfa1b5457453, type: 3}
       propertyPath: m_Name
       value: Character (1)
@@ -3754,6 +3774,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1090100029464572445, guid: a515af9df0473974293fdfa1b5457453, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3571518198398038583, guid: a515af9df0473974293fdfa1b5457453, type: 3}
       propertyPath: m_Name
       value: Character
