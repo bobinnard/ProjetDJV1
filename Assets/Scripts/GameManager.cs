@@ -7,10 +7,17 @@ public class GameManager : MonoBehaviour
     public static int impostorCount = 2;
     public static int characterCount = 6;
     [SerializeField] public EnnemyBehaviour[] characters;
-    [SerializeField] private Vector3[] targets;
+    [SerializeField] private string[] targets;
+    [SerializeField] private GameObject victory;
+    [SerializeField] private GameObject defeat;
+    [SerializeField] private GameObject retryButton;
     // Start is called before the first frame update
     void Start()
     {
+        Setup();
+    }
+
+    public void Setup(){
         for (int i = 0; i<characterCount; i++){
             characters[i].targets = targets;
             characters[i].role = 1;
@@ -23,7 +30,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(impostorCount == 0)Debug.Log("you win!");
-        if (impostorCount > characterCount+1) Debug.Log("you lost!");
+        if(impostorCount == 0){
+            victory.SetActive(true);
+            retryButton.SetActive(true);
+        }
+        if (impostorCount >= characterCount-impostorCount+1){
+            defeat.SetActive(true);
+            retryButton.SetActive(true);
+        }
     }
 }
